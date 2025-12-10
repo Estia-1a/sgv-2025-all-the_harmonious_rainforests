@@ -17,3 +17,22 @@ border-radius:8px;
 display: block;
 margin:auto;
 }
+
+/* ===== BANNIÈRE PROMO ===== */
+
+.banner {
+    background-color: #4f7d25;   /* vert de fond */
+    color: #ffffff;
+    padding: 20px 0 40px;
+}
+
+/* Bloc blanc avec texte rouge */
+.banner-promo {
+    background-color: #ffffff;
+    color: #c5213b;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 0 30px 30px;
+}
