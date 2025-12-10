@@ -203,3 +203,13 @@ margin:auto;
     font-weight: bold;
     border-radius: 6px;
 }
+
+
+.souligne {
+            text-decoration: underline;
+        }
+
+ h1 {
+            border: 5px solid #333; /* Bordure autour du titre */
+            padding: 10px;
+            display: inline-block;
