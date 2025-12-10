@@ -1,3 +1,35 @@
 body{
 background-color:lightgreen;
 }
+
+
+
+.produits {
+    padding: 20px 15px 40px;
+    background-color: #f5f5f5;
+}
+
+.colonnes-produits {
+    display: block;   
+}
+
+.categorie {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.table-produits {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.table-produits th,
+.table-produits td {
+    border: 1px solid #dddddd;
+    padding: 6px 8px;
+    text-align: center;
+}
