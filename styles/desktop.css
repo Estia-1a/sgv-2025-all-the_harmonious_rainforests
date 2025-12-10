@@ -150,13 +150,13 @@ margin:auto;
     background-color: #e5f1d8; 
     font-weight: bold;
 }
-/* ===== HERO IMAGE ===== */
+
 
 .hero {
     position: relative;
     width: 100%;
     overflow: hidden;
-    border-radius: 12px; /* optionnel pour arrondir comme ton exemple */
+    border-radius: 12px; 
 }
 
 .hero-img {
