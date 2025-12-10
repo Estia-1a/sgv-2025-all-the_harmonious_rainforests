@@ -18,15 +18,15 @@ display: block;
 margin:auto;
 }
 
-/* ===== BANNIÈRE PROMO ===== */
+
 
 .banner {
-    background-color: #4f7d25;   /* vert de fond */
+    background-color: #4f7d25;   
     color: #ffffff;
     padding: 20px 0 40px;
 }
 
-/* Bloc blanc avec texte rouge */
+
 .banner-promo {
     background-color: #ffffff;
     color: #c5213b;
