@@ -6,7 +6,8 @@ background-color:lightgreen;
 h1{
 font-size: 60px; 
 font-weight: bold;   
-text-align: center;
+margin: 40px;
+border: 10px;
 }
 
 img {
