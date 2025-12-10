@@ -31,6 +31,7 @@ margin:auto;
     font-size: 20px;
     border-radius: 6px;
     font-weight: bold;
+    margin: 100px;
 }
 
 .banner {
@@ -47,7 +48,7 @@ margin:auto;
     font-size: 20px;
     text-align: center;
     padding: 15px 10px;
-    margin: 0 30px 30px;
+    margin: 100px;
 }
 
 .banner-infos {
@@ -82,4 +83,5 @@ margin:auto;
     font-size: 20px;
     border-radius: 6px;
     font-weight: bold;
+    margin: 300px;
 }
