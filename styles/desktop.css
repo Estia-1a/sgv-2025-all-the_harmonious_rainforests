@@ -19,6 +19,17 @@ margin:auto;
 }
 
 
+.btn-panier {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
 
 .banner {
     background-color: #4f7d25;   
