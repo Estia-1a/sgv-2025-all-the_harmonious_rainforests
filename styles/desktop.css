@@ -83,5 +83,58 @@ margin:auto;
     font-size: 20px;
     border-radius: 6px;
     font-weight: bold;
-    margin: 300px;
+}
+
+
+
+.produits {
+    padding: 40px 40px 60px;
+    background-color: #f5f5f5;
+}
+
+.produits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.colonnes-produits {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.categorie {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    min-width: 320px;
+}
+
+.categorie h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.table-produits {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table-produits th,
+.table-produits td {
+    border: 1px solid #dddddd;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.table-produits th {
+    background-color: #e5f1d8; 
+    font-weight: bold;
 }
