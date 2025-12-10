@@ -23,7 +23,7 @@ margin:auto;
 
 .btn-panier {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 40px 70px;
     background-color: #ffffff;
     border: 2px solid #000000;
     text-decoration: none;
@@ -75,7 +75,7 @@ margin:auto;
 
 .btn-profil {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 40px 70px;
     background-color: #ffffff;
     border: 2px solid #000000;
     text-decoration: none;
