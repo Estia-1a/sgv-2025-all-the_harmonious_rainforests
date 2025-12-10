@@ -7,7 +7,9 @@ h1{
 font-size: 60px; 
 font-weight: bold;   
 margin: 40px;
-border: 10px;
+border: 2px solid #000000;
+background-color: lightgreen;
+border-radius: 8px;
 }
 
 img {
