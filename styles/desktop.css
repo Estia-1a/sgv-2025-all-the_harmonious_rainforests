@@ -283,3 +283,121 @@ body {
 .about-back a:hover {
     background-color: #214219;
 }
+
+
+
+.cart-page {
+    max-width: 1000px;
+    margin: 40px auto 60px;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+.cart-title {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-left: 10px solid #2f5c24;
+    padding-left: 18px;
+}
+
+.cart-intro {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+
+
+.cart-section {
+    margin-bottom: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #dddddd;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.cart-table thead th {
+    background-color: #e5f1d8;
+    font-weight: bold;
+}
+
+.cart-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cart-total {
+    margin-top: 15px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-total span {
+    font-size: 20px;
+    color: #2f5c24;
+}
+
+
+
+.cart-note h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.cart-note p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Boutons */
+
+.cart-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #2f5c24;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #214219;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #2f5c24;
+    border: 2px solid #2f5c24;
+}
+
+.btn-secondary:hover {
+    background-color: #e5f1d8;
+}

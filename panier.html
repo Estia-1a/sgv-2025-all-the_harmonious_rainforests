@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
-    <title>Mon Panier</title>
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)">
+    <title>Mon panier</title>
 </head>
-<body>
-    <h1>  Mon Panier </h1>
-    <p>Votre panier est vide pour le moment.</p>
 
-    <a href="index.html">⬅ Retour</a>
-<section class="banner">
+<body>
+
+    <main class="cart-page">
+
+        
+        <h1 class="cart-title">Mon panier</h1>
+
+        
+        <p class="cart-intro">
+            Voici votre panier du moment, déjà rempli avec une sélection de fruits et légumes frais.
+        </p>
+
+        
+        <section class="cart-section">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Prix / unité</th>
+                        <th>Quantité</th>
+                        <th>Sous-total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🍌 Bananes</td>
+                        <td>1,00 € / banane</td>
+                        <td>3</td>
+                        <td>3,00 €</td>
+                    </tr>
+                    <tr>
+                        <td>🍎 Pommes</td>
+                        <td>0,80 € / pomme</td>
+                        <td>4</td>
+                        <td>3,20 €</td>
+                    </tr>
+                    <tr>
+                        <td>🥔 Pommes de terre</td>
+                        <td>2,00 € / kg</td>
+                        <td>3 kg</td>
+                        <td>6,00 €</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="cart-total">
+                Total panier : <span>12,20 €</span>
+            </p>
+        </section>
+
+        
+        <section class="cart-note">
+            <h2>🌿 Des produits choisis avec soin</h2>
+            <p>
+                Toutes les quantités sont ajustables lors de la commande finale.
+                Ici, vous avez un exemple de panier type pour une famille : des fruits pour le quotidien
+                et des pommes de terre pour accompagner vos plats.
+            </p>
+        </section>
+
+    
+        <div class="cart-actions">
+            <a href="index.html" class="btn-secondary">⬅ Retour à l’accueil</a>
+            <a href="#" class="btn-primary">Valider ma commande</a>
+        </div>
+
+    </main>
+
+
+
 
     
     <div class="banner-promo">
