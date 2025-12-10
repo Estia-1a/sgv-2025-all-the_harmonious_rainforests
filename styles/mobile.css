@@ -33,3 +33,18 @@ background-color:lightgreen;
     padding: 6px 8px;
     text-align: center;
 }
+
+.about-page {
+    max-width: 100%;
+    margin: 20px 10px 40px;
+    padding: 20px 16px;
+}
+
+.about-title {
+    font-size: 32px;
+    border-left-width: 6px;
+}
+
+.about-section p {
+    font-size: 16px;
+}
