@@ -401,3 +401,9 @@ body {
 .btn-secondary:hover {
     background-color: #e5f1d8;
 }
+
+ h3 {
+            border: 2px solid #333; 
+            padding: 10px;
+            display: inline-block;
+        }
