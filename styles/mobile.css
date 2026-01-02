@@ -165,6 +165,11 @@ background-color:lightgreen;
     margin-bottom: 10px;
 }
 
+h2 {
+    display: flex;
+    justify-self: center;
+}
+
 .logo {
     display: inline-block;
     padding: 12px 28px;
