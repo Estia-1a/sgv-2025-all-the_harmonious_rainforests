@@ -48,14 +48,14 @@ margin:auto;
   transition: all 0.3s ease;
 }
 
-/* Effet hover pour interactivité */
+
 .btn-panier:hover {
   background-color: #000;
   color: #fff;
   transform: scale(1.05);
 }
 
-/* Accessibilité : réduire les animations si nécessaire */
+
 @media (prefers-reduced-motion: reduce) {
   .btn-panier {
     transition: none;
@@ -119,14 +119,14 @@ margin:auto;
   transition: all 0.3s ease;
 }
 
-/* Effet hover pour l’interactivité */
+
 .btn-profil:hover {
   background-color: #000;
   color: #fff;
   transform: scale(1.05);
 }
 
-/* Accessibilité : réduire les animations si nécessaire */
+
 @media (prefers-reduced-motion: reduce) {
   .btn-profil {
     transition: none;
